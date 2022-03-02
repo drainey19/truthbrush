@@ -15,25 +15,36 @@ img {
     height: 250px;
 }
 
-
-#tableTitles {
-    font-size: 14pt;
+/*Main page*/
+#desc {
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
-#tableAnswers {
-    font-weight: lighter;
-    color: #121212;
+/*Instructions page*/
+#parts, #assembly, #store, #manual{
+    margin-left: 15%;
+    margin-right: 15%;
+    border-bottom: 2px solid white;
 }
 
-#caption {
-    font-size: 15pt;
-}
-
-table, th, tr {
+#manual {
     text-align: center;
-    border: 1px inset;
 }
 
+/*Prototype page*/
+#prototypes {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/*Team members page*/
+#team {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/*Nav bar*/
 .topNav {
     background-color: gray;
     overflow: hidden;
@@ -56,52 +67,4 @@ table, th, tr {
 .topNav a:active {
     background-color: gray;
     color: black;
-}
-
-.dropDown {
-    float: left;
-    overflow: hidden;
-}
-
-.dropDown .dropButton {
-    font-size: 17px;
-    padding: 14px 16px;
-    color: white;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-    border: none;
-    outline: none;
-}
-
-.dropDownContent {
-    display: none;
-    position: absolute;
-    background-color: inherit;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropDownContent a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.topNav a:hover, .dropDown a:hover, .dropButton {
-    background-color: #555;
-    color: white;
-}
-
-.dropDownContent {
-    background-color: #ddd;
-    color: black;
-}
-
-.dropDown:hover .dropDownContent {
-    display: block;
 }
