@@ -16,9 +16,13 @@ img {
 }
 
 /*Main page*/
-#desc {
+.desc, .statment, .goal {
     margin-left: 15%;
     margin-right: 15%;
+}
+
+.concept {
+    text-align: center;
 }
 
 
@@ -37,6 +41,7 @@ img {
 #prototypes {
     margin-left: 15%;
     margin-right: 15%;
+    text-align: center;
 }
 
 /*Team members page*/
